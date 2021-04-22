@@ -6,7 +6,6 @@ the [project repo](https://github.com/CadQuery/cq-cli).
 ## How to build the image
 
 ```
-cd cq-cli
 docker build -t cq-cli .
 ```
 

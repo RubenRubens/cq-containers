@@ -3,7 +3,6 @@
 ## How to build the image
 
 ```
-cd cq-cli
 docker build -t cq-conda .
 ```
 
