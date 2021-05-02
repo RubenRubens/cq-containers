@@ -9,7 +9,7 @@ docker build -t cq-conda .
 ## Usage
 
 
-To run and create a new container for latter use:
+Create a new container for latter use:
 
 ```
 docker run -v $PWD:/cadquery:z -itd cq-conda bash
@@ -30,7 +30,7 @@ cube = cq.Workplane().box(1, 1, 1)
 exporters.export(cube, 'part.step')
 ```
 
-To run it:
+In order to execute it:
 
 ```
 docker exec -i cq-conda python script.py
